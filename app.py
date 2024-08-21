@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+import pickle
 
 def preprocess_data(df):
     df_processed = df.copy()
